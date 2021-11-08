@@ -23,8 +23,13 @@ class MUNIT_Trainer(nn.Module):
 
         # fix the noise used in sampling
         display_size = int(hyperparameters['display_size'])
-        self.s_a = torch.randn(display_size, self.style_dim, 1, 1).cuda()
-        self.s_b = torch.randn(display_size, self.style_dim, 1, 1).cuda()
+        self.s_a = torch.randn(display_size, self.style_dim, 1, 1)
+        self.s_b = torch.randn(display_size, self.style_dim, 1, 1)
+
+        self.hyperparameters = hyperparameters
+        if hyperparameters["gpu"] >= 0:
+            self.s_a = self.s_a.cuda()
+            self.s_b = self.s_b.cuda()
 
         # Setup the optimizers
         beta1 = hyperparameters['beta1']
@@ -66,8 +71,13 @@ class MUNIT_Trainer(nn.Module):
 
     def gen_update(self, x_a, x_b, hyperparameters):
         self.gen_opt.zero_grad()
-        s_a = Variable(torch.randn(x_a.size(0), self.style_dim, 1, 1).cuda())
-        s_b = Variable(torch.randn(x_b.size(0), self.style_dim, 1, 1).cuda())
+        if hyperparameters["gpu"] >= 0:
+            s_a = Variable(torch.randn(x_a.size(0), self.style_dim, 1, 1).cuda())
+            s_b = Variable(torch.randn(x_b.size(0), self.style_dim, 1, 1).cuda())
+        else:
+            s_a = Variable(torch.randn(x_a.size(0), self.style_dim, 1, 1))
+            s_b = Variable(torch.randn(x_b.size(0), self.style_dim, 1, 1))
+
         # encode
         c_a, s_a_prime = self.gen_a.encode(x_a)
         c_b, s_b_prime = self.gen_b.encode(x_b)
@@ -126,8 +136,13 @@ class MUNIT_Trainer(nn.Module):
         self.eval()
         s_a1 = Variable(self.s_a)
         s_b1 = Variable(self.s_b)
-        s_a2 = Variable(torch.randn(x_a.size(0), self.style_dim, 1, 1).cuda())
-        s_b2 = Variable(torch.randn(x_b.size(0), self.style_dim, 1, 1).cuda())
+        if self.hyperparameters["gpu"] >= 0:
+            s_a2 = Variable(torch.randn(x_a.size(0), self.style_dim, 1, 1).cuda())
+            s_b2 = Variable(torch.randn(x_b.size(0), self.style_dim, 1, 1).cuda())
+        else:
+            s_a2 = Variable(torch.randn(x_a.size(0), self.style_dim, 1, 1))
+            s_b2 = Variable(torch.randn(x_b.size(0), self.style_dim, 1, 1))
+
         x_a_recon, x_b_recon, x_ba1, x_ba2, x_ab1, x_ab2 = [], [], [], [], [], []
         for i in range(x_a.size(0)):
             c_a, s_a_fake = self.gen_a.encode(x_a[i].unsqueeze(0))
@@ -146,8 +161,12 @@ class MUNIT_Trainer(nn.Module):
 
     def dis_update(self, x_a, x_b, hyperparameters):
         self.dis_opt.zero_grad()
-        s_a = Variable(torch.randn(x_a.size(0), self.style_dim, 1, 1).cuda())
-        s_b = Variable(torch.randn(x_b.size(0), self.style_dim, 1, 1).cuda())
+        if hyperparameters["gpu"] >= 0:
+            s_a = Variable(torch.randn(x_a.size(0), self.style_dim, 1, 1).cuda())
+            s_b = Variable(torch.randn(x_b.size(0), self.style_dim, 1, 1).cuda())
+        else:
+            s_a = Variable(torch.randn(x_a.size(0), self.style_dim, 1, 1))
+            s_b = Variable(torch.randn(x_b.size(0), self.style_dim, 1, 1))
         # encode
         c_a, _ = self.gen_a.encode(x_a)
         c_b, _ = self.gen_b.encode(x_b)
