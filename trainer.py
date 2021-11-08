@@ -208,10 +208,10 @@ class MUNIT_Trainer(nn.Module):
         print('Resume from iteration %d' % iterations)
         return iterations
 
-    def save(self, snapshot_dir, iterations):
+    def save(self, snapshot_dir, tag="final"):
         # Save generators, discriminators, and optimizers
-        gen_name = os.path.join(snapshot_dir, 'gen_%08d.pt' % (iterations + 1))
-        dis_name = os.path.join(snapshot_dir, 'dis_%08d.pt' % (iterations + 1))
+        gen_name = os.path.join(snapshot_dir, 'gen_%s.pt' % tag)
+        dis_name = os.path.join(snapshot_dir, 'dis_%s.pt' % tag)
         opt_name = os.path.join(snapshot_dir, 'optimizer.pt')
         torch.save({'a': self.gen_a.state_dict(), 'b': self.gen_b.state_dict()}, gen_name)
         torch.save({'a': self.dis_a.state_dict(), 'b': self.dis_b.state_dict()}, dis_name)
@@ -392,8 +392,8 @@ class UNIT_Trainer(nn.Module):
 
     def save(self, snapshot_dir, iterations):
         # Save generators, discriminators, and optimizers
-        gen_name = os.path.join(snapshot_dir, 'gen_%08d.pt' % (iterations + 1))
-        dis_name = os.path.join(snapshot_dir, 'dis_%08d.pt' % (iterations + 1))
+        gen_name = os.path.join(snapshot_dir, 'gen_%s.pt' % tag)
+        dis_name = os.path.join(snapshot_dir, 'dis_%s.pt' % tag)
         opt_name = os.path.join(snapshot_dir, 'optimizer.pt')
         torch.save({'a': self.gen_a.state_dict(), 'b': self.gen_b.state_dict()}, gen_name)
         torch.save({'a': self.dis_a.state_dict(), 'b': self.dis_b.state_dict()}, dis_name)
