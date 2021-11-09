@@ -8,6 +8,7 @@ from torch.autograd import Variable
 import torch
 import torch.nn as nn
 import os
+import pdb
 
 class MUNIT_Trainer(nn.Module):
     def __init__(self, hyperparameters):
@@ -289,17 +290,12 @@ class UNIT_Trainer(nn.Module):
         # encode again
         h_b_recon, n_b_recon = self.gen_a.encode(x_ba)
         h_a_recon, n_a_recon = self.gen_b.encode(x_ab)
-        # decode again (if needed)
-        x_aba = self.gen_a.decode(h_a_recon + n_a_recon) if hyperparameters['recon_x_cyc_w'] > 0 else None
-        x_bab = self.gen_b.decode(h_b_recon + n_b_recon) if hyperparameters['recon_x_cyc_w'] > 0 else None
 
         # reconstruction loss
         self.loss_gen_recon_x_a = self.recon_criterion(x_a_recon, x_a)
         self.loss_gen_recon_x_b = self.recon_criterion(x_b_recon, x_b)
         self.loss_gen_recon_kl_a = self.__compute_kl(h_a)
         self.loss_gen_recon_kl_b = self.__compute_kl(h_b)
-        self.loss_gen_cyc_x_a = self.recon_criterion(x_aba, x_a)
-        self.loss_gen_cyc_x_b = self.recon_criterion(x_bab, x_b)
         self.loss_gen_recon_kl_cyc_aba = self.__compute_kl(h_a_recon)
         self.loss_gen_recon_kl_cyc_bab = self.__compute_kl(h_b_recon)
         # GAN loss
@@ -315,12 +311,21 @@ class UNIT_Trainer(nn.Module):
                               hyperparameters['recon_kl_w'] * self.loss_gen_recon_kl_a + \
                               hyperparameters['recon_x_w'] * self.loss_gen_recon_x_b + \
                               hyperparameters['recon_kl_w'] * self.loss_gen_recon_kl_b + \
-                              hyperparameters['recon_x_cyc_w'] * self.loss_gen_cyc_x_a + \
                               hyperparameters['recon_kl_cyc_w'] * self.loss_gen_recon_kl_cyc_aba + \
-                              hyperparameters['recon_x_cyc_w'] * self.loss_gen_cyc_x_b + \
                               hyperparameters['recon_kl_cyc_w'] * self.loss_gen_recon_kl_cyc_bab + \
                               hyperparameters['vgg_w'] * self.loss_gen_vgg_a + \
                               hyperparameters['vgg_w'] * self.loss_gen_vgg_b
+
+
+        # decode again (if needed)
+        if hyperparameters['recon_x_cyc_w'] > 0:
+            x_aba = self.gen_a.decode(h_a_recon + n_a_recon)
+            x_bab = self.gen_b.decode(h_b_recon + n_b_recon)
+            self.loss_gen_cyc_x_a = self.recon_criterion(x_aba, x_a)
+            self.loss_gen_cyc_x_b = self.recon_criterion(x_bab, x_b)
+            self.loss_gen_total += hyperparameters['recon_x_cyc_w'] * self.loss_gen_cyc_x_a + \
+                                   hyperparameters['recon_x_cyc_w'] * self.loss_gen_cyc_x_b
+
         self.loss_gen_total.backward()
         self.gen_opt.step()
 
@@ -390,7 +395,7 @@ class UNIT_Trainer(nn.Module):
         print('Resume from iteration %d' % iterations)
         return iterations
 
-    def save(self, snapshot_dir, iterations):
+    def save(self, snapshot_dir, tag):
         # Save generators, discriminators, and optimizers
         gen_name = os.path.join(snapshot_dir, 'gen_%s.pt' % tag)
         dis_name = os.path.join(snapshot_dir, 'dis_%s.pt' % tag)
