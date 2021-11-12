@@ -190,7 +190,7 @@ if __name__ == '__main__':
     parser.add_argument('--data_dir', type=str, default=r'data', help='path of the dataset')
     parser.add_argument('--log_dir', type=str, default=r'logs', help="log file dir")
     parser.add_argument('--checkpoint_dir', type=str, default=r'checkpoints', help="checkpoint file dir")
-    parser.add_argument('--pretrained_tag', type=str, default='best', choices=['best','final'], help="pretrained file tag")
+    parser.add_argument('--pretrained_tag', type=str, default='final', choices=['best','final'], help="pretrained file tag")
     parser.add_argument('--logfile', type=str, default='', help="log file")
     parser.add_argument('--aug_sigma', type=float, default=0, help="augmentation parameter:sigma")
     parser.add_argument('--aug_points', type=float, default=1, help="augmentation parameter:points")
