@@ -23,7 +23,7 @@ import pdb
 from skimage.metrics import structural_similarity as SSIM
 
 
-sys.path.append(os.path.join("..", "util"))
+sys.path.append(r"E:\我的坚果云\sourcecode\python\util")
 import common_metrics
 import common_pelvic_pt as common_pelvic
 
