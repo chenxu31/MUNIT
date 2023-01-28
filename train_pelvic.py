@@ -154,8 +154,7 @@ def main(logger, opts):
 
                 msg += "  val_st_psnr:%f/%f  val_ts_psnr:%f/%f" % \
                        (val_st_psnr.mean(), val_st_psnr.std(), val_ts_psnr.mean(), val_ts_psnr.std())
-                gen_images_test = numpy.concatenate(
-                    [val_data_s[0], val_st_list[0], val_ts_list[0], val_data_t[0]], 2)
+                gen_images_test = numpy.concatenate([val_data_s[0], val_st_list[0], val_ts_list[0], val_data_t[0]], 2)
                 gen_images_test = numpy.expand_dims(gen_images_test, 0).astype(numpy.float32)
                 gen_images_test = common_pelvic.generate_display_image(gen_images_test, is_seg=False)
 
