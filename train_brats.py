@@ -96,7 +96,7 @@ def main(logger, opts):
 
         # Dump training stats in log file
         if (it + 1) % config['log_iter'] == 0:
-            print("Iteration: %08d/%08d" % (it + 1, max_iter))
+            print("Iteration: %08d/%08d" % (it + 1, max_epochs))
             write_loss(it, trainer, train_writer)
 
         if (it + 1) % config['image_display_iter'] == 0:
