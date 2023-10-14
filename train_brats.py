@@ -33,7 +33,7 @@ def main(logger, opts):
     # Load experiment setting
     config = get_config(opts.config)
     config["gpu"] = opts.gpu
-    max_iter = config['max_epochs']
+    max_epochs = config['max_epochs']
     display_size = config['display_size']
     config['vgg_model_path'] = opts.output_path
 
