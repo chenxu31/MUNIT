@@ -222,8 +222,9 @@ class ContentEncoder(nn.Module):
         return self.model(x)
 
 class Decoder(nn.Module):
-    def __init__(self, n_upsample, n_res, dim, output_dim, res_norm='adain', activ='relu', pad_type='zero'):
+    def __init__(self, n_upsample, n_res, dim, output_dim, res_norm='adain', activ='relu', pad_type='zero', clip=True):
         super(Decoder, self).__init__()
+        self.clip = clip
 
         self.model = []
         # AdaIN residual blocks
@@ -234,11 +235,16 @@ class Decoder(nn.Module):
                            Conv2dBlock(dim, dim // 2, 5, 1, 2, norm='ln', activation=activ, pad_type=pad_type)]
             dim //= 2
         # use reflection padding in the last conv layer
-        self.model += [Conv2dBlock(dim, output_dim, 7, 1, 3, norm='none', activation='tanh', pad_type=pad_type)]
+        self.model += [Conv2dBlock(dim, output_dim, 7, 1, 3, norm='none', activation='none', pad_type=pad_type)]
         self.model = nn.Sequential(*self.model)
 
     def forward(self, x):
-        return self.model(x)
+        ret = self.model(x)
+
+        if self.clip:
+            ret = torch.clamp(ret, 1., -1.)
+
+        return ret
 
 ##################################################################################
 # Sequential Models
