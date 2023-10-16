@@ -242,7 +242,7 @@ class Decoder(nn.Module):
         ret = self.model(x)
 
         if self.clip:
-            ret = torch.clamp(ret, 1., -1.)
+            ret = torch.clamp(ret, -1., 1.)
 
         return ret
 
