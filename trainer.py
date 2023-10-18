@@ -86,11 +86,11 @@ class MUNIT_Trainer(nn.Module):
         x_a_recon = self.gen_a.decode(c_a, s_a_prime)
         x_b_recon = self.gen_b.decode(c_b, s_b_prime)
         # decode (cross domain)
-        x_ba = self.gen_a.decode(c_b, s_a)
-        x_ab = self.gen_b.decode(c_a, s_b)
+        self.x_ba = self.gen_a.decode(c_b, s_a)
+        self.x_ab = self.gen_b.decode(c_a, s_b)
         # encode again
-        c_b_recon, s_a_recon = self.gen_a.encode(x_ba)
-        c_a_recon, s_b_recon = self.gen_b.encode(x_ab)
+        c_b_recon, s_a_recon = self.gen_a.encode(self.x_ba)
+        c_a_recon, s_b_recon = self.gen_b.encode(self.x_ab)
         # decode again (if needed)
         x_aba = self.gen_a.decode(c_a_recon, s_a_prime) if hyperparameters['recon_x_cyc_w'] > 0 else None
         x_bab = self.gen_b.decode(c_b_recon, s_b_prime) if hyperparameters['recon_x_cyc_w'] > 0 else None
@@ -105,11 +105,11 @@ class MUNIT_Trainer(nn.Module):
         self.loss_gen_cycrecon_x_a = self.recon_criterion(x_aba, x_a) if hyperparameters['recon_x_cyc_w'] > 0 else 0
         self.loss_gen_cycrecon_x_b = self.recon_criterion(x_bab, x_b) if hyperparameters['recon_x_cyc_w'] > 0 else 0
         # GAN loss
-        self.loss_gen_adv_a = self.dis_a.calc_gen_loss(x_ba)
-        self.loss_gen_adv_b = self.dis_b.calc_gen_loss(x_ab)
+        self.loss_gen_adv_a = self.dis_a.calc_gen_loss(self.x_ba)
+        self.loss_gen_adv_b = self.dis_b.calc_gen_loss(self.x_ab)
         # domain-invariant perceptual loss
-        self.loss_gen_vgg_a = self.compute_vgg_loss(self.vgg, x_ba, x_b) if hyperparameters['vgg_w'] > 0 else 0
-        self.loss_gen_vgg_b = self.compute_vgg_loss(self.vgg, x_ab, x_a) if hyperparameters['vgg_w'] > 0 else 0
+        self.loss_gen_vgg_a = self.compute_vgg_loss(self.vgg, self.x_ba, x_b) if hyperparameters['vgg_w'] > 0 else 0
+        self.loss_gen_vgg_b = self.compute_vgg_loss(self.vgg, self.x_ab, x_a) if hyperparameters['vgg_w'] > 0 else 0
         # total loss
         self.loss_gen_total = hyperparameters['gan_w'] * self.loss_gen_adv_a + \
                               hyperparameters['gan_w'] * self.loss_gen_adv_b + \
