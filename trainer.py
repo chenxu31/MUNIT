@@ -285,11 +285,11 @@ class UNIT_Trainer(nn.Module):
         x_a_recon = self.gen_a.decode(h_a + n_a)
         x_b_recon = self.gen_b.decode(h_b + n_b)
         # decode (cross domain)
-        x_ba = self.gen_a.decode(h_b + n_b)
-        x_ab = self.gen_b.decode(h_a + n_a)
+        self.x_ba = self.gen_a.decode(h_b + n_b)
+        self.x_ab = self.gen_b.decode(h_a + n_a)
         # encode again
-        h_b_recon, n_b_recon = self.gen_a.encode(x_ba)
-        h_a_recon, n_a_recon = self.gen_b.encode(x_ab)
+        h_b_recon, n_b_recon = self.gen_a.encode(self.x_ba)
+        h_a_recon, n_a_recon = self.gen_b.encode(self.x_ab)
 
         # reconstruction loss
         self.loss_gen_recon_x_a = self.recon_criterion(x_a_recon, x_a)
@@ -299,11 +299,11 @@ class UNIT_Trainer(nn.Module):
         self.loss_gen_recon_kl_cyc_aba = self.__compute_kl(h_a_recon)
         self.loss_gen_recon_kl_cyc_bab = self.__compute_kl(h_b_recon)
         # GAN loss
-        self.loss_gen_adv_a = self.dis_a.calc_gen_loss(x_ba)
-        self.loss_gen_adv_b = self.dis_b.calc_gen_loss(x_ab)
+        self.loss_gen_adv_a = self.dis_a.calc_gen_loss(self.x_ba)
+        self.loss_gen_adv_b = self.dis_b.calc_gen_loss(self.x_ab)
         # domain-invariant perceptual loss
-        self.loss_gen_vgg_a = self.compute_vgg_loss(self.vgg, x_ba, x_b) if hyperparameters['vgg_w'] > 0 else 0
-        self.loss_gen_vgg_b = self.compute_vgg_loss(self.vgg, x_ab, x_a) if hyperparameters['vgg_w'] > 0 else 0
+        self.loss_gen_vgg_a = self.compute_vgg_loss(self.vgg, self.x_ba, x_b) if hyperparameters['vgg_w'] > 0 else 0
+        self.loss_gen_vgg_b = self.compute_vgg_loss(self.vgg, self.x_ab, x_a) if hyperparameters['vgg_w'] > 0 else 0
         # total loss
         self.loss_gen_total = hyperparameters['gan_w'] * self.loss_gen_adv_a + \
                               hyperparameters['gan_w'] * self.loss_gen_adv_b + \
