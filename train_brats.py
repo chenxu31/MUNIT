@@ -56,8 +56,8 @@ def main(logger, opts):
     if opts.gpu >= 0:
         trainer.cuda()
 
-    dataset_s = common_brats.Dataset(opts.data_dir, modality="t2", n_slices=config["input_dim_a"])
-    dataset_t = common_brats.Dataset(opts.data_dir, modality="t1", n_slices=config["input_dim_b"])
+    dataset_s = common_brats.Dataset(opts.data_dir, modality="t2", n_slices=config["input_dim_a"], valid=True)
+    dataset_t = common_brats.Dataset(opts.data_dir, modality="t1", n_slices=config["input_dim_b"], valid=True)
     dataloader_s = torch.utils.data.DataLoader(dataset_s, batch_size=opts.batch_size, shuffle=True, pin_memory=True,
                                                drop_last=True)
     dataloader_t = torch.utils.data.DataLoader(dataset_t, batch_size=opts.batch_size, shuffle=True, pin_memory=True,
