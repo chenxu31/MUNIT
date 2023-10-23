@@ -92,15 +92,13 @@ def main(logger, opts):
             test_st /= used
             test_ts /= used
 
-            """
             if opts.output_dir:
-                common_pelvic.save_nii(test_ts, os.path.join(opts.output_dir, "syn_%s.nii.gz" % test_ids_t[i]))
-            """
+                common_brats.save_nii(test_ts, os.path.join(opts.output_dir, "syn_%d.nii.gz" % i))
 
             st_psnr = common_metrics.psnr(test_st, test_data_t[i])
             ts_psnr = common_metrics.psnr(test_ts, test_data_s[i])
-            st_ssim = SSIM(test_st, test_data_t[i], range=2.)
-            ts_ssim = SSIM(test_ts, test_data_s[i], range=2.)
+            st_ssim = SSIM(test_st, test_data_t[i], data_range=2.)
+            ts_ssim = SSIM(test_ts, test_data_s[i], data_range=2.)
             st_mae = abs(test_st - test_data_t[i]).mean()
             ts_mae = abs(test_ts - test_data_s[i]).mean()
 
@@ -141,7 +139,7 @@ if __name__ == '__main__':
     parser.add_argument('--gpu', type=int, default=0, help="gpu device id")
     parser.add_argument('--data_dir', type=str, default=r'data', help='path of the dataset')
     parser.add_argument('--checkpoint_dir', type=str, default=r'checkpoints', help="checkpoint file dir")
-    parser.add_argument('--pretrained_tag', type=str, default='final', choices=['best','final'], help="pretrained file tag")
+    parser.add_argument('--pretrained_tag', type=str, default='best', choices=['best','final'], help="pretrained file tag")
 
     opts = parser.parse_args()
 

@@ -1,0 +1,338 @@
+2023-10-14 18:47:42,877 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-14 18:47:42,877 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-14 18:47:42,877 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-14 18:47:42,877 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-14 18:47:42,878 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-14 18:47:42,878 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-14 18:47:42,878 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-14 18:47:42,878 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-14 18:47:42,878 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-14 18:47:42,879 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-14 18:47:42,879 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-14 18:47:42,879 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-14 22:45:03,605 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-14 22:45:03,605 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-14 22:45:03,607 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-14 22:45:03,607 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-14 22:45:03,608 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-14 22:45:03,608 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-14 22:45:03,608 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-14 22:45:03,608 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-14 22:45:03,608 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-14 22:45:03,608 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-14 22:45:03,608 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-14 22:45:03,608 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-17 20:22:40,151 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-17 20:22:40,151 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-17 20:22:40,152 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-17 20:22:40,152 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-17 20:22:40,152 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-17 20:22:40,152 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-17 20:22:40,152 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-17 20:22:40,152 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-17 20:22:40,152 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-17 20:22:40,153 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-17 20:22:40,153 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-17 20:22:40,153 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 19:47:15,155 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 19:47:15,156 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 19:47:15,156 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 19:47:15,156 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 19:47:15,156 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 19:47:15,156 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 19:47:15,157 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 19:47:15,157 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 19:47:15,157 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 19:47:15,157 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 19:47:15,157 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 19:47:15,157 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 19:48:27,793 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 19:48:27,794 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 19:48:27,794 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 19:48:27,794 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 19:48:27,794 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 19:48:27,794 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 19:48:27,794 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 19:48:27,794 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 19:48:27,794 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 19:48:27,794 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 19:48:27,795 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 19:48:27,795 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 19:51:07,564 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 19:51:07,565 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 19:51:07,565 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 19:51:07,565 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 19:51:07,565 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 19:51:07,565 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 19:51:07,565 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 19:51:07,565 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 19:51:07,566 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 19:51:07,566 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 19:51:07,566 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 19:51:07,566 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 20:07:49,092 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 20:07:49,092 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 20:07:49,093 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 20:07:49,093 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 20:07:49,093 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 20:07:49,093 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 20:07:49,093 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 20:07:49,094 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 20:07:49,094 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 20:07:49,094 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 20:07:49,094 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 20:07:49,094 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 20:09:28,554 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 20:09:28,555 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 20:09:28,555 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 20:09:28,556 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 20:09:28,556 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 20:09:28,556 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 20:09:28,556 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 20:09:28,556 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 20:09:28,556 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 20:09:28,557 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 20:09:28,557 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 20:09:28,557 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 20:12:14,483 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 20:12:14,483 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 20:12:14,483 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 20:12:14,483 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 20:12:14,484 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 20:12:14,484 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 20:12:14,484 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 20:12:14,484 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 20:12:14,484 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 20:12:14,484 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 20:12:14,484 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 20:12:14,484 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-18 20:12:14,561 Image.py[line:379] DEBUG Importing BlpImagePlugin
+2023-10-18 20:12:14,562 Image.py[line:379] DEBUG Importing BmpImagePlugin
+2023-10-18 20:12:14,562 Image.py[line:379] DEBUG Importing BufrStubImagePlugin
+2023-10-18 20:12:14,562 Image.py[line:379] DEBUG Importing CurImagePlugin
+2023-10-18 20:12:14,562 Image.py[line:379] DEBUG Importing DcxImagePlugin
+2023-10-18 20:12:14,562 Image.py[line:379] DEBUG Importing DdsImagePlugin
+2023-10-18 20:12:14,562 Image.py[line:379] DEBUG Importing EpsImagePlugin
+2023-10-18 20:12:14,562 Image.py[line:379] DEBUG Importing FitsImagePlugin
+2023-10-18 20:12:14,562 Image.py[line:379] DEBUG Importing FitsStubImagePlugin
+2023-10-18 20:12:14,563 Image.py[line:379] DEBUG Importing FliImagePlugin
+2023-10-18 20:12:14,563 Image.py[line:379] DEBUG Importing FpxImagePlugin
+2023-10-18 20:12:14,563 Image.py[line:382] DEBUG Image: failed to import FpxImagePlugin: No module named 'olefile'
+2023-10-18 20:12:14,563 Image.py[line:379] DEBUG Importing FtexImagePlugin
+2023-10-18 20:12:14,563 Image.py[line:379] DEBUG Importing GbrImagePlugin
+2023-10-18 20:12:14,563 Image.py[line:379] DEBUG Importing GifImagePlugin
+2023-10-18 20:12:14,563 Image.py[line:379] DEBUG Importing GribStubImagePlugin
+2023-10-18 20:12:14,563 Image.py[line:379] DEBUG Importing Hdf5StubImagePlugin
+2023-10-18 20:12:14,563 Image.py[line:379] DEBUG Importing IcnsImagePlugin
+2023-10-18 20:12:14,563 Image.py[line:379] DEBUG Importing IcoImagePlugin
+2023-10-18 20:12:14,564 Image.py[line:379] DEBUG Importing ImImagePlugin
+2023-10-18 20:12:14,564 Image.py[line:379] DEBUG Importing ImtImagePlugin
+2023-10-18 20:12:14,564 Image.py[line:379] DEBUG Importing IptcImagePlugin
+2023-10-18 20:12:14,564 Image.py[line:379] DEBUG Importing JpegImagePlugin
+2023-10-18 20:12:14,564 Image.py[line:379] DEBUG Importing Jpeg2KImagePlugin
+2023-10-18 20:12:14,564 Image.py[line:379] DEBUG Importing McIdasImagePlugin
+2023-10-18 20:12:14,564 Image.py[line:379] DEBUG Importing MicImagePlugin
+2023-10-18 20:12:14,564 Image.py[line:382] DEBUG Image: failed to import MicImagePlugin: No module named 'olefile'
+2023-10-18 20:12:14,564 Image.py[line:379] DEBUG Importing MpegImagePlugin
+2023-10-18 20:12:14,564 Image.py[line:379] DEBUG Importing MpoImagePlugin
+2023-10-18 20:12:14,564 Image.py[line:379] DEBUG Importing MspImagePlugin
+2023-10-18 20:12:14,565 Image.py[line:379] DEBUG Importing PalmImagePlugin
+2023-10-18 20:12:14,565 Image.py[line:379] DEBUG Importing PcdImagePlugin
+2023-10-18 20:12:14,565 Image.py[line:379] DEBUG Importing PcxImagePlugin
+2023-10-18 20:12:14,565 Image.py[line:379] DEBUG Importing PdfImagePlugin
+2023-10-18 20:12:14,567 Image.py[line:379] DEBUG Importing PixarImagePlugin
+2023-10-18 20:12:14,567 Image.py[line:379] DEBUG Importing PngImagePlugin
+2023-10-18 20:12:14,567 Image.py[line:379] DEBUG Importing PpmImagePlugin
+2023-10-18 20:12:14,567 Image.py[line:379] DEBUG Importing PsdImagePlugin
+2023-10-18 20:12:14,567 Image.py[line:379] DEBUG Importing SgiImagePlugin
+2023-10-18 20:12:14,567 Image.py[line:379] DEBUG Importing SpiderImagePlugin
+2023-10-18 20:12:14,567 Image.py[line:379] DEBUG Importing SunImagePlugin
+2023-10-18 20:12:14,567 Image.py[line:379] DEBUG Importing TgaImagePlugin
+2023-10-18 20:12:14,568 Image.py[line:379] DEBUG Importing TiffImagePlugin
+2023-10-18 20:12:14,568 Image.py[line:379] DEBUG Importing WebPImagePlugin
+2023-10-18 20:12:14,568 Image.py[line:379] DEBUG Importing WmfImagePlugin
+2023-10-18 20:12:14,568 Image.py[line:379] DEBUG Importing XbmImagePlugin
+2023-10-18 20:12:14,568 Image.py[line:379] DEBUG Importing XpmImagePlugin
+2023-10-18 20:12:14,568 Image.py[line:379] DEBUG Importing XVThumbImagePlugin
+2023-10-19 18:06:29,341 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-19 18:06:29,341 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-19 18:06:29,341 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-19 18:06:29,342 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-19 18:06:29,342 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-19 18:06:29,342 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-19 18:06:29,342 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-19 18:06:29,342 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-19 18:06:29,342 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-19 18:06:29,342 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-19 18:06:29,342 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-19 18:06:29,343 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-19 18:06:29,380 Image.py[line:379] DEBUG Importing BlpImagePlugin
+2023-10-19 18:06:29,380 Image.py[line:379] DEBUG Importing BmpImagePlugin
+2023-10-19 18:06:29,380 Image.py[line:379] DEBUG Importing BufrStubImagePlugin
+2023-10-19 18:06:29,381 Image.py[line:379] DEBUG Importing CurImagePlugin
+2023-10-19 18:06:29,381 Image.py[line:379] DEBUG Importing DcxImagePlugin
+2023-10-19 18:06:29,381 Image.py[line:379] DEBUG Importing DdsImagePlugin
+2023-10-19 18:06:29,381 Image.py[line:379] DEBUG Importing EpsImagePlugin
+2023-10-19 18:06:29,381 Image.py[line:379] DEBUG Importing FitsImagePlugin
+2023-10-19 18:06:29,381 Image.py[line:379] DEBUG Importing FitsStubImagePlugin
+2023-10-19 18:06:29,381 Image.py[line:379] DEBUG Importing FliImagePlugin
+2023-10-19 18:06:29,381 Image.py[line:379] DEBUG Importing FpxImagePlugin
+2023-10-19 18:06:29,382 Image.py[line:382] DEBUG Image: failed to import FpxImagePlugin: No module named 'olefile'
+2023-10-19 18:06:29,382 Image.py[line:379] DEBUG Importing FtexImagePlugin
+2023-10-19 18:06:29,382 Image.py[line:379] DEBUG Importing GbrImagePlugin
+2023-10-19 18:06:29,382 Image.py[line:379] DEBUG Importing GifImagePlugin
+2023-10-19 18:06:29,382 Image.py[line:379] DEBUG Importing GribStubImagePlugin
+2023-10-19 18:06:29,382 Image.py[line:379] DEBUG Importing Hdf5StubImagePlugin
+2023-10-19 18:06:29,382 Image.py[line:379] DEBUG Importing IcnsImagePlugin
+2023-10-19 18:06:29,382 Image.py[line:379] DEBUG Importing IcoImagePlugin
+2023-10-19 18:06:29,382 Image.py[line:379] DEBUG Importing ImImagePlugin
+2023-10-19 18:06:29,383 Image.py[line:379] DEBUG Importing ImtImagePlugin
+2023-10-19 18:06:29,383 Image.py[line:379] DEBUG Importing IptcImagePlugin
+2023-10-19 18:06:29,383 Image.py[line:379] DEBUG Importing JpegImagePlugin
+2023-10-19 18:06:29,383 Image.py[line:379] DEBUG Importing Jpeg2KImagePlugin
+2023-10-19 18:06:29,383 Image.py[line:379] DEBUG Importing McIdasImagePlugin
+2023-10-19 18:06:29,383 Image.py[line:379] DEBUG Importing MicImagePlugin
+2023-10-19 18:06:29,383 Image.py[line:382] DEBUG Image: failed to import MicImagePlugin: No module named 'olefile'
+2023-10-19 18:06:29,383 Image.py[line:379] DEBUG Importing MpegImagePlugin
+2023-10-19 18:06:29,383 Image.py[line:379] DEBUG Importing MpoImagePlugin
+2023-10-19 18:06:29,383 Image.py[line:379] DEBUG Importing MspImagePlugin
+2023-10-19 18:06:29,383 Image.py[line:379] DEBUG Importing PalmImagePlugin
+2023-10-19 18:06:29,384 Image.py[line:379] DEBUG Importing PcdImagePlugin
+2023-10-19 18:06:29,384 Image.py[line:379] DEBUG Importing PcxImagePlugin
+2023-10-19 18:06:29,384 Image.py[line:379] DEBUG Importing PdfImagePlugin
+2023-10-19 18:06:29,386 Image.py[line:379] DEBUG Importing PixarImagePlugin
+2023-10-19 18:06:29,386 Image.py[line:379] DEBUG Importing PngImagePlugin
+2023-10-19 18:06:29,386 Image.py[line:379] DEBUG Importing PpmImagePlugin
+2023-10-19 18:06:29,386 Image.py[line:379] DEBUG Importing PsdImagePlugin
+2023-10-19 18:06:29,386 Image.py[line:379] DEBUG Importing SgiImagePlugin
+2023-10-19 18:06:29,386 Image.py[line:379] DEBUG Importing SpiderImagePlugin
+2023-10-19 18:06:29,386 Image.py[line:379] DEBUG Importing SunImagePlugin
+2023-10-19 18:06:29,386 Image.py[line:379] DEBUG Importing TgaImagePlugin
+2023-10-19 18:06:29,386 Image.py[line:379] DEBUG Importing TiffImagePlugin
+2023-10-19 18:06:29,386 Image.py[line:379] DEBUG Importing WebPImagePlugin
+2023-10-19 18:06:29,387 Image.py[line:379] DEBUG Importing WmfImagePlugin
+2023-10-19 18:06:29,387 Image.py[line:379] DEBUG Importing XbmImagePlugin
+2023-10-19 18:06:29,387 Image.py[line:379] DEBUG Importing XpmImagePlugin
+2023-10-19 18:06:29,387 Image.py[line:379] DEBUG Importing XVThumbImagePlugin
+2023-10-19 18:15:23,333 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-19 18:15:23,333 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-19 18:15:23,333 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-19 18:15:23,334 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-19 18:15:23,334 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-19 18:15:23,334 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-19 18:15:23,334 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-19 18:15:23,334 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-19 18:15:23,334 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-19 18:15:23,334 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-19 18:15:23,334 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-19 18:15:23,334 x2num.py[line:14] WARNING NaN or Inf found in input tensor.
+2023-10-19 21:18:06,808 Image.py[line:379] DEBUG Importing BlpImagePlugin
+2023-10-19 21:18:06,808 Image.py[line:379] DEBUG Importing BmpImagePlugin
+2023-10-19 21:18:06,808 Image.py[line:379] DEBUG Importing BufrStubImagePlugin
+2023-10-19 21:18:06,809 Image.py[line:379] DEBUG Importing CurImagePlugin
+2023-10-19 21:18:06,809 Image.py[line:379] DEBUG Importing DcxImagePlugin
+2023-10-19 21:18:06,809 Image.py[line:379] DEBUG Importing DdsImagePlugin
+2023-10-19 21:18:06,809 Image.py[line:379] DEBUG Importing EpsImagePlugin
+2023-10-19 21:18:06,809 Image.py[line:379] DEBUG Importing FitsImagePlugin
+2023-10-19 21:18:06,809 Image.py[line:379] DEBUG Importing FitsStubImagePlugin
+2023-10-19 21:18:06,809 Image.py[line:379] DEBUG Importing FliImagePlugin
+2023-10-19 21:18:06,809 Image.py[line:379] DEBUG Importing FpxImagePlugin
+2023-10-19 21:18:06,810 Image.py[line:382] DEBUG Image: failed to import FpxImagePlugin: No module named 'olefile'
+2023-10-19 21:18:06,810 Image.py[line:379] DEBUG Importing FtexImagePlugin
+2023-10-19 21:18:06,810 Image.py[line:379] DEBUG Importing GbrImagePlugin
+2023-10-19 21:18:06,810 Image.py[line:379] DEBUG Importing GifImagePlugin
+2023-10-19 21:18:06,810 Image.py[line:379] DEBUG Importing GribStubImagePlugin
+2023-10-19 21:18:06,810 Image.py[line:379] DEBUG Importing Hdf5StubImagePlugin
+2023-10-19 21:18:06,810 Image.py[line:379] DEBUG Importing IcnsImagePlugin
+2023-10-19 21:18:06,810 Image.py[line:379] DEBUG Importing IcoImagePlugin
+2023-10-19 21:18:06,810 Image.py[line:379] DEBUG Importing ImImagePlugin
+2023-10-19 21:18:06,810 Image.py[line:379] DEBUG Importing ImtImagePlugin
+2023-10-19 21:18:06,811 Image.py[line:379] DEBUG Importing IptcImagePlugin
+2023-10-19 21:18:06,811 Image.py[line:379] DEBUG Importing JpegImagePlugin
+2023-10-19 21:18:06,811 Image.py[line:379] DEBUG Importing Jpeg2KImagePlugin
+2023-10-19 21:18:06,811 Image.py[line:379] DEBUG Importing McIdasImagePlugin
+2023-10-19 21:18:06,811 Image.py[line:379] DEBUG Importing MicImagePlugin
+2023-10-19 21:18:06,811 Image.py[line:382] DEBUG Image: failed to import MicImagePlugin: No module named 'olefile'
+2023-10-19 21:18:06,811 Image.py[line:379] DEBUG Importing MpegImagePlugin
+2023-10-19 21:18:06,811 Image.py[line:379] DEBUG Importing MpoImagePlugin
+2023-10-19 21:18:06,811 Image.py[line:379] DEBUG Importing MspImagePlugin
+2023-10-19 21:18:06,811 Image.py[line:379] DEBUG Importing PalmImagePlugin
+2023-10-19 21:18:06,812 Image.py[line:379] DEBUG Importing PcdImagePlugin
+2023-10-19 21:18:06,812 Image.py[line:379] DEBUG Importing PcxImagePlugin
+2023-10-19 21:18:06,812 Image.py[line:379] DEBUG Importing PdfImagePlugin
+2023-10-19 21:18:06,814 Image.py[line:379] DEBUG Importing PixarImagePlugin
+2023-10-19 21:18:06,814 Image.py[line:379] DEBUG Importing PngImagePlugin
+2023-10-19 21:18:06,814 Image.py[line:379] DEBUG Importing PpmImagePlugin
+2023-10-19 21:18:06,814 Image.py[line:379] DEBUG Importing PsdImagePlugin
+2023-10-19 21:18:06,814 Image.py[line:379] DEBUG Importing SgiImagePlugin
+2023-10-19 21:18:06,814 Image.py[line:379] DEBUG Importing SpiderImagePlugin
+2023-10-19 21:18:06,814 Image.py[line:379] DEBUG Importing SunImagePlugin
+2023-10-19 21:18:06,814 Image.py[line:379] DEBUG Importing TgaImagePlugin
+2023-10-19 21:18:06,814 Image.py[line:379] DEBUG Importing TiffImagePlugin
+2023-10-19 21:18:06,814 Image.py[line:379] DEBUG Importing WebPImagePlugin
+2023-10-19 21:18:06,815 Image.py[line:379] DEBUG Importing WmfImagePlugin
+2023-10-19 21:18:06,815 Image.py[line:379] DEBUG Importing XbmImagePlugin
+2023-10-19 21:18:06,815 Image.py[line:379] DEBUG Importing XpmImagePlugin
+2023-10-19 21:18:06,815 Image.py[line:379] DEBUG Importing XVThumbImagePlugin
+2023-10-19 21:18:20,816 train_brats.py[line:171] INFO Iter: 1  val_st_psnr:22.869350/0.952426  val_ts_psnr:21.781490/0.387262  best_ts_psnr:21.781490
+2023-10-19 21:53:58,268 train_brats.py[line:171] INFO Iter: 2  val_st_psnr:22.073454/0.548154  val_ts_psnr:21.678593/0.672649  best_ts_psnr:21.781490
+2023-10-19 22:29:35,557 train_brats.py[line:171] INFO Iter: 3  val_st_psnr:23.000881/0.835965  val_ts_psnr:21.927120/0.474045  best_ts_psnr:21.927120
+2023-10-19 23:05:12,448 train_brats.py[line:171] INFO Iter: 4  val_st_psnr:22.892378/0.721383  val_ts_psnr:21.506632/0.505366  best_ts_psnr:21.927120
+2023-10-19 23:40:48,816 train_brats.py[line:171] INFO Iter: 5  val_st_psnr:23.235394/0.649325  val_ts_psnr:21.796381/0.482645  best_ts_psnr:21.927120
+2023-10-20 00:16:24,332 train_brats.py[line:171] INFO Iter: 6  val_st_psnr:22.845278/0.548815  val_ts_psnr:21.777929/0.482267  best_ts_psnr:21.927120
+2023-10-20 00:52:00,490 train_brats.py[line:171] INFO Iter: 7  val_st_psnr:22.923906/0.540527  val_ts_psnr:22.084717/0.576177  best_ts_psnr:22.084717
+2023-10-20 01:27:35,777 train_brats.py[line:171] INFO Iter: 8  val_st_psnr:21.975346/0.533734  val_ts_psnr:21.832066/0.611449  best_ts_psnr:22.084717
+2023-10-20 02:03:11,289 train_brats.py[line:171] INFO Iter: 9  val_st_psnr:23.292170/0.602565  val_ts_psnr:22.283669/0.610704  best_ts_psnr:22.283669
+2023-10-20 02:38:46,545 train_brats.py[line:171] INFO Iter: 10  val_st_psnr:22.537586/0.553585  val_ts_psnr:22.103130/0.488306  best_ts_psnr:22.283669
+2023-10-20 03:14:22,190 train_brats.py[line:171] INFO Iter: 11  val_st_psnr:23.302555/0.644694  val_ts_psnr:21.964190/0.478261  best_ts_psnr:22.283669
+2023-10-20 03:49:57,707 train_brats.py[line:171] INFO Iter: 12  val_st_psnr:22.050781/0.433289  val_ts_psnr:22.164911/0.714289  best_ts_psnr:22.283669
+2023-10-20 04:25:32,760 train_brats.py[line:171] INFO Iter: 13  val_st_psnr:23.008379/0.515172  val_ts_psnr:20.887081/0.428346  best_ts_psnr:22.283669
+2023-10-20 05:01:07,942 train_brats.py[line:171] INFO Iter: 14  val_st_psnr:22.917545/0.505095  val_ts_psnr:22.295200/0.726732  best_ts_psnr:22.295200
+2023-10-20 05:36:43,449 train_brats.py[line:171] INFO Iter: 15  val_st_psnr:22.834118/0.551665  val_ts_psnr:22.519993/0.544072  best_ts_psnr:22.519993
+2023-10-20 06:12:19,880 train_brats.py[line:171] INFO Iter: 16  val_st_psnr:22.698542/0.442828  val_ts_psnr:22.583721/0.731747  best_ts_psnr:22.583721
+2023-10-20 06:47:55,118 train_brats.py[line:171] INFO Iter: 17  val_st_psnr:22.947968/0.584043  val_ts_psnr:22.593456/0.697854  best_ts_psnr:22.593456
+2023-10-20 07:23:31,241 train_brats.py[line:171] INFO Iter: 18  val_st_psnr:23.083628/0.644953  val_ts_psnr:22.611816/0.692018  best_ts_psnr:22.611816
+2023-10-20 07:59:06,564 train_brats.py[line:171] INFO Iter: 19  val_st_psnr:22.878525/0.611756  val_ts_psnr:22.958775/0.611842  best_ts_psnr:22.958775
+2023-10-20 08:34:42,009 train_brats.py[line:171] INFO Iter: 20  val_st_psnr:22.598639/0.492167  val_ts_psnr:22.795557/0.682824  best_ts_psnr:22.958775
+2023-10-20 09:10:16,378 train_brats.py[line:171] INFO Iter: 21  val_st_psnr:22.939728/0.628745  val_ts_psnr:22.588642/0.693165  best_ts_psnr:22.958775
+2023-10-20 09:45:49,203 train_brats.py[line:171] INFO Iter: 22  val_st_psnr:23.153730/0.740672  val_ts_psnr:22.877239/0.657520  best_ts_psnr:22.958775
+2023-10-20 10:21:23,911 train_brats.py[line:171] INFO Iter: 23  val_st_psnr:23.120518/0.607644  val_ts_psnr:22.619595/0.715185  best_ts_psnr:22.958775
+2023-10-20 10:56:58,462 train_brats.py[line:171] INFO Iter: 24  val_st_psnr:18.592756/0.442231  val_ts_psnr:22.571299/0.790148  best_ts_psnr:22.958775
+2023-10-20 11:32:33,893 train_brats.py[line:171] INFO Iter: 25  val_st_psnr:22.710728/0.513624  val_ts_psnr:22.641588/0.693469  best_ts_psnr:22.958775
+2023-10-20 12:08:09,747 train_brats.py[line:171] INFO Iter: 26  val_st_psnr:23.102932/0.546504  val_ts_psnr:22.908962/0.735243  best_ts_psnr:22.958775
+2023-10-20 12:43:44,174 train_brats.py[line:171] INFO Iter: 27  val_st_psnr:22.892233/0.561529  val_ts_psnr:22.782345/0.543057  best_ts_psnr:22.958775
+2023-10-20 13:19:20,169 train_brats.py[line:171] INFO Iter: 28  val_st_psnr:22.869455/0.665891  val_ts_psnr:22.790207/0.751273  best_ts_psnr:22.958775
+2023-10-20 13:54:55,129 train_brats.py[line:171] INFO Iter: 29  val_st_psnr:22.815042/0.638599  val_ts_psnr:22.895811/0.650971  best_ts_psnr:22.958775
+2023-10-20 14:30:31,196 train_brats.py[line:171] INFO Iter: 30  val_st_psnr:23.334902/0.621145  val_ts_psnr:22.785015/0.586745  best_ts_psnr:22.958775
+2023-10-20 15:06:06,414 train_brats.py[line:171] INFO Iter: 31  val_st_psnr:22.960806/0.499794  val_ts_psnr:22.648455/0.747193  best_ts_psnr:22.958775
+2023-10-20 15:41:42,597 train_brats.py[line:171] INFO Iter: 32  val_st_psnr:23.233276/0.682483  val_ts_psnr:22.726078/0.687847  best_ts_psnr:22.958775
+2023-10-20 16:17:18,661 train_brats.py[line:171] INFO Iter: 33  val_st_psnr:23.350750/0.682878  val_ts_psnr:22.603397/0.586683  best_ts_psnr:22.958775
+2023-10-20 16:52:54,807 train_brats.py[line:171] INFO Iter: 34  val_st_psnr:23.012146/0.670787  val_ts_psnr:22.728291/0.687161  best_ts_psnr:22.958775
+2023-10-20 17:28:30,460 train_brats.py[line:171] INFO Iter: 35  val_st_psnr:23.039984/0.528505  val_ts_psnr:22.847116/0.694319  best_ts_psnr:22.958775
+2023-10-20 18:04:05,833 train_brats.py[line:171] INFO Iter: 36  val_st_psnr:23.071371/0.638618  val_ts_psnr:22.609125/0.750488  best_ts_psnr:22.958775
+2023-10-20 18:39:41,847 train_brats.py[line:171] INFO Iter: 37  val_st_psnr:23.638807/0.660388  val_ts_psnr:23.086697/0.721101  best_ts_psnr:23.086697
+2023-10-20 19:15:08,823 train_brats.py[line:171] INFO Iter: 38  val_st_psnr:23.490164/0.718723  val_ts_psnr:21.815287/0.415052  best_ts_psnr:23.086697
+2023-10-20 19:50:39,782 train_brats.py[line:171] INFO Iter: 39  val_st_psnr:22.128962/0.448725  val_ts_psnr:22.086399/0.699960  best_ts_psnr:23.086697
+2023-10-20 20:26:14,715 train_brats.py[line:171] INFO Iter: 40  val_st_psnr:23.602579/0.650965  val_ts_psnr:22.492832/0.828192  best_ts_psnr:23.086697
+2023-10-20 21:01:47,229 train_brats.py[line:171] INFO Iter: 41  val_st_psnr:23.171198/0.665426  val_ts_psnr:14.901091/1.672502  best_ts_psnr:23.086697
+2023-10-20 21:37:21,073 train_brats.py[line:171] INFO Iter: 42  val_st_psnr:23.531168/0.696224  val_ts_psnr:22.504145/0.706167  best_ts_psnr:23.086697
+2023-10-20 22:12:54,875 train_brats.py[line:171] INFO Iter: 43  val_st_psnr:23.606642/0.763663  val_ts_psnr:22.577280/0.741362  best_ts_psnr:23.086697
+2023-10-20 22:48:28,943 train_brats.py[line:171] INFO Iter: 44  val_st_psnr:23.530176/0.636113  val_ts_psnr:20.912125/0.654287  best_ts_psnr:23.086697
+2023-10-20 23:24:03,329 train_brats.py[line:171] INFO Iter: 45  val_st_psnr:23.383764/0.611528  val_ts_psnr:22.641424/0.735892  best_ts_psnr:23.086697
+2023-10-20 23:59:37,457 train_brats.py[line:171] INFO Iter: 46  val_st_psnr:23.090757/0.631516  val_ts_psnr:22.990726/0.597911  best_ts_psnr:23.086697
+2023-10-21 00:35:11,900 train_brats.py[line:171] INFO Iter: 47  val_st_psnr:23.543861/0.621260  val_ts_psnr:23.103046/0.659464  best_ts_psnr:23.103046
+2023-10-21 01:10:46,256 train_brats.py[line:171] INFO Iter: 48  val_st_psnr:23.534801/0.699121  val_ts_psnr:22.800007/0.695573  best_ts_psnr:23.103046
+2023-10-21 01:46:20,188 train_brats.py[line:171] INFO Iter: 49  val_st_psnr:23.464632/0.675898  val_ts_psnr:22.797155/0.815873  best_ts_psnr:23.103046
+2023-10-21 02:21:54,268 train_brats.py[line:171] INFO Iter: 50  val_st_psnr:23.454863/0.603526  val_ts_psnr:22.760534/0.639844  best_ts_psnr:23.103046
+2023-10-21 02:57:28,178 train_brats.py[line:171] INFO Iter: 51  val_st_psnr:23.477032/0.605897  val_ts_psnr:22.928822/0.690664  best_ts_psnr:23.103046
+2023-10-21 03:33:02,067 train_brats.py[line:171] INFO Iter: 52  val_st_psnr:23.017719/0.734519  val_ts_psnr:22.788258/0.568424  best_ts_psnr:23.103046
+2023-10-21 04:08:35,914 train_brats.py[line:171] INFO Iter: 53  val_st_psnr:23.446743/0.762740  val_ts_psnr:22.860758/0.741973  best_ts_psnr:23.103046
+2023-10-21 04:44:09,892 train_brats.py[line:171] INFO Iter: 54  val_st_psnr:23.480167/0.713627  val_ts_psnr:22.936729/0.692285  best_ts_psnr:23.103046
+2023-10-21 05:19:43,261 train_brats.py[line:171] INFO Iter: 55  val_st_psnr:23.541794/0.638076  val_ts_psnr:22.941376/0.652463  best_ts_psnr:23.103046
+2023-10-21 05:55:17,464 train_brats.py[line:171] INFO Iter: 56  val_st_psnr:23.651176/0.734299  val_ts_psnr:22.757616/0.577429  best_ts_psnr:23.103046
+2023-10-21 06:30:51,018 train_brats.py[line:171] INFO Iter: 57  val_st_psnr:23.227865/0.618679  val_ts_psnr:22.820395/0.707626  best_ts_psnr:23.103046
+2023-10-21 07:06:25,022 train_brats.py[line:171] INFO Iter: 58  val_st_psnr:23.382183/0.784804  val_ts_psnr:22.479239/0.637524  best_ts_psnr:23.103046
+2023-10-21 07:41:59,070 train_brats.py[line:171] INFO Iter: 59  val_st_psnr:23.489597/0.835398  val_ts_psnr:11.575950/0.333303  best_ts_psnr:23.103046
+2023-10-21 08:17:32,466 train_brats.py[line:171] INFO Iter: 60  val_st_psnr:23.552971/0.800525  val_ts_psnr:22.997646/0.669671  best_ts_psnr:23.103046
+2023-10-21 08:53:06,482 train_brats.py[line:171] INFO Iter: 61  val_st_psnr:23.445934/0.845942  val_ts_psnr:23.193125/0.697198  best_ts_psnr:23.193125
+2023-10-21 09:28:40,408 train_brats.py[line:171] INFO Iter: 62  val_st_psnr:23.483776/0.806467  val_ts_psnr:23.089233/0.623364  best_ts_psnr:23.193125
