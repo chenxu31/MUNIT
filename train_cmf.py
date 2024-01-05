@@ -102,12 +102,10 @@ def main(logger, opts):
         if (it + 1) % config['image_display_iter'] == 0:
             msg = "Iter: %d" % (it + 1)
 
-            syn_st, syn_ts = trainer.forward(patch_s, patch_t)
-
             train_patch_s_np = patch_s.cpu().detach().numpy()
             train_patch_t_np = patch_t.cpu().detach().numpy()
-            train_syn_st_np = syn_st.cpu().detach().numpy()
-            train_syn_ts_np = syn_ts.cpu().detach().numpy()
+            train_syn_st_np = trainer.x_ab.cpu().detach().numpy()
+            train_syn_ts_np = trainer.x_ba.cpu().detach().numpy()
 
             gen_images_train = numpy.concatenate([train_patch_s_np, train_syn_st_np, train_syn_ts_np, train_patch_t_np], 3)
             gen_images_train = common_cmf.generate_display_image(gen_images_train, is_seg=False)
