@@ -118,7 +118,7 @@ def main(logger, opts):
             test_ts_list.append(test_ts)
             msg_detail += "  %s  psnr: %f  ssim: %f  mae: %f\n" % (i, ts_psnr, ts_ssim, ts_mae)
 
-    msg = "test_st_psnr:%f/%f  test_st_ssim:%f/%f  test_st_ssim:%f/%f  test_ts_psnr:%f/%f  test_ts_ssim:%f/%f  test_ts_ssim:%f/%f" % \
+    msg = "test_st_psnr:%f/%f  test_st_ssim:%f/%f  test_st_mae:%f/%f  test_ts_psnr:%f/%f  test_ts_ssim:%f/%f  test_ts_mae:%f/%f" % \
           (test_st_psnr.mean(), test_st_psnr.std(), test_st_ssim.mean(), test_st_ssim.std(), test_st_mae.mean(), test_st_mae.std(),
            test_ts_psnr.mean(), test_ts_psnr.std(), test_ts_ssim.mean(), test_ts_ssim.std(), test_ts_mae.mean(), test_ts_mae.std())
 
@@ -133,8 +133,8 @@ def main(logger, opts):
         numpy.save(os.path.join(opts.output_dir, "ts_psnr.npy"), test_ts_psnr)
         numpy.save(os.path.join(opts.output_dir, "st_ssim.npy"), test_st_ssim)
         numpy.save(os.path.join(opts.output_dir, "ts_ssim.npy"), test_ts_ssim)
-        numpy.save(os.path.join(opt.results_dir, "st_mae.npy"), test_st_mae)
-        numpy.save(os.path.join(opt.results_dir, "ts_mae.npy"), test_ts_mae)
+        numpy.save(os.path.join(opts.output_dir, "st_mae.npy"), test_st_mae)
+        numpy.save(os.path.join(opts.output_dir, "ts_mae.npy"), test_ts_mae)
 
 
 if __name__ == '__main__':
@@ -145,7 +145,7 @@ if __name__ == '__main__':
     parser.add_argument('--gpu', type=int, default=0, help="gpu device id")
     parser.add_argument('--data_dir', type=str, default=r'data', help='path of the dataset')
     parser.add_argument('--checkpoint_dir', type=str, default=r'checkpoints', help="checkpoint file dir")
-    parser.add_argument('--pretrained_tag', type=str, default='final', choices=['best','final'], help="pretrained file tag")
+    parser.add_argument('--pretrained_tag', type=str, default='best', choices=['best','final'], help="pretrained file tag")
     parser.add_argument('--mini', type=int, default=0, help="whether do mini data to avoid memory insufficient issue")
 
     opts = parser.parse_args()
