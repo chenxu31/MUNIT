@@ -87,7 +87,7 @@ def main(logger, opts):
     for it in range(iterations, max_iter):
         patch_s, patch_t, _ = data_iter.next()
 
-        if patch_s.contiguous().view(8, -1).max(1)[0].min() <= -1 or patch_t.contiguous().view(8, -1).max(1)[0].min() <= -1:
+        if patch_s.contiguous().view(config["batch_size"], -1).max(1)[0].min() <= -1 or patch_t.contiguous().view(config["batch_size"], -1).max(1)[0].min() <= -1:
             continue
 
         #with Timer("Elapsed time in update: %f"):
