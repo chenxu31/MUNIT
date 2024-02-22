@@ -57,13 +57,13 @@ def main(logger, opts):
         trainer.cuda()
 
     dataset_s = common_ixi.Dataset(opts.data_dir, modality="t2", n_slices=config["input_dim_a"], debug=opts.debug)
-    dataset_t = common_ixi.Dataset(opts.data_dir, modality="t1", n_slices=config["input_dim_b"], debug=opts.debug)
+    dataset_t = common_ixi.Dataset(opts.data_dir, modality="pd", n_slices=config["input_dim_b"], debug=opts.debug)
     dataloader_s = torch.utils.data.DataLoader(dataset_s, batch_size=opts.batch_size, shuffle=True, pin_memory=True,
                                                drop_last=True)
     dataloader_t = torch.utils.data.DataLoader(dataset_t, batch_size=opts.batch_size, shuffle=True, pin_memory=True,
                                                drop_last=True)
     if opts.do_validation:
-        val_data_t, val_data_s = common_ixi.load_test_data(opts.data_dir, "val")
+        val_data_s, val_data_t = common_ixi.load_test_data(opts.data_dir, "val")
 
     """
     train_loader_a, train_loader_b, test_loader_a, test_loader_b = get_all_data_loaders(config)
@@ -182,7 +182,7 @@ if __name__ == '__main__':
     parser.add_argument("--resume", action="store_true")
     parser.add_argument('--trainer', type=str, default='MUNIT', help="MUNIT|UNIT")
     parser.add_argument('--gpu', type=int, default=0, help="gpu device id")
-    parser.add_argument('--batch_size', type=int, default=168, help="batch size")
+    parser.add_argument('--batch_size', type=int, default=16, help="batch size")
     parser.add_argument('--data_dir', type=str, default=r'data', help='path of the dataset')
     parser.add_argument('--log_dir', type=str, default=r'logs', help="log file dir")
     parser.add_argument('--checkpoint_dir', type=str, default=r'checkpoints', help="checkpoint file dir")

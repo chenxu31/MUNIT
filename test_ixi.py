@@ -62,7 +62,7 @@ def main(logger, opts):
     if opts.gpu >= 0:
         trainer.cuda()
 
-    test_data_t, test_data_s = common_ixi.load_test_data(opts.data_dir, "test")
+    test_data_s, test_data_t = common_ixi.load_test_data(opts.data_dir, "test")
 
     test_st_psnr = numpy.zeros((test_data_s.shape[0], 1), numpy.float32)
     test_ts_psnr = numpy.zeros((test_data_t.shape[0], 1), numpy.float32)
