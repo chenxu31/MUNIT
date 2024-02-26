@@ -214,7 +214,7 @@ class MUNIT_Trainer(nn.Module):
         gen_name = os.path.join(snapshot_dir, 'gen_%s.pt' % tag)
         dis_name = os.path.join(snapshot_dir, 'dis_%s.pt' % tag)
         opt_name = os.path.join(snapshot_dir, 'optimizer.pt')
-        torch.save({'a': self.gen_a.state_dict(), 'b': self.gen_b.state_dict()}, gen_name)
+        torch.save({'a': self.gen_a.state_dict(), 'b': self.gen_b.state_dict(), 's_a': self.s_a, 's_b': self.s_b}, gen_name)
         torch.save({'a': self.dis_a.state_dict(), 'b': self.dis_b.state_dict()}, dis_name)
         torch.save({'gen': self.gen_opt.state_dict(), 'dis': self.dis_opt.state_dict()}, opt_name)
 
