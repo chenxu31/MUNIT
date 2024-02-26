@@ -56,20 +56,22 @@ def main(logger, opts):
         sys.exit("Only support MUNIT|UNIT")
 
     state_dict = torch.load(os.path.join(opts.checkpoint_dir, 'gen_%s.pt' % opts.pretrained_tag))
+    trainer.s_a = state_dict['s_a']
+    trainer.s_b = state_dict['s_b']
     trainer.gen_a.load_state_dict(state_dict['a'])
     trainer.gen_b.load_state_dict(state_dict['b'])
 
     if opts.gpu >= 0:
         trainer.cuda()
 
-    test_data_s, test_data_t = common_ixi.load_test_data(opts.data_dir, "test")
+    test_data_s, test_data_t = common_ixi.load_test_data(opts.data_dir, "val")
 
-    test_st_psnr = numpy.zeros((test_data_s.shape[0], 1), numpy.float32)
-    test_ts_psnr = numpy.zeros((test_data_t.shape[0], 1), numpy.float32)
-    test_st_ssim = numpy.zeros((test_data_s.shape[0], 1), numpy.float32)
-    test_ts_ssim = numpy.zeros((test_data_t.shape[0], 1), numpy.float32)
-    test_st_mae = numpy.zeros((test_data_s.shape[0], 1), numpy.float32)
-    test_ts_mae = numpy.zeros((test_data_t.shape[0], 1), numpy.float32)
+    test_st_psnr = numpy.zeros((test_data_s.shape[0], ), numpy.float32)
+    test_ts_psnr = numpy.zeros((test_data_t.shape[0], ), numpy.float32)
+    test_st_ssim = numpy.zeros((test_data_s.shape[0], ), numpy.float32)
+    test_ts_ssim = numpy.zeros((test_data_t.shape[0], ), numpy.float32)
+    test_st_mae = numpy.zeros((test_data_s.shape[0], ), numpy.float32)
+    test_ts_mae = numpy.zeros((test_data_t.shape[0], ), numpy.float32)
     test_st_list = []
     test_ts_list = []
     msg_detail = ""
@@ -139,7 +141,7 @@ if __name__ == '__main__':
     parser.add_argument('--gpu', type=int, default=0, help="gpu device id")
     parser.add_argument('--data_dir', type=str, default=r'data', help='path of the dataset')
     parser.add_argument('--checkpoint_dir', type=str, default=r'checkpoints', help="checkpoint file dir")
-    parser.add_argument('--pretrained_tag', type=str, default='best', choices=['best','final'], help="pretrained file tag")
+    parser.add_argument('--pretrained_tag', type=str, default='best', choices=['best','last'], help="pretrained file tag")
 
     opts = parser.parse_args()
 
