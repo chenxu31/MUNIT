@@ -172,7 +172,7 @@ def main(logger, opts):
 
         trainer.update_learning_rate()
 
-    trainer.save(opts.checkpoint_dir, "final")
+        trainer.save(opts.checkpoint_dir, "last")
 
 
 if __name__ == '__main__':
